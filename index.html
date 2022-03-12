@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Calculator</title>
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<div class="coupon">
+  <div class="container">
+    <h3 id="my-value"> Metric/Imperial Unit Conversion</h3>
+    <input type="text" value="0" id="myInput" class="custom-input" oninput="myFunction()">
+  </div>
+  <div class="details">
+    <h2> Length (Meter/Feet) </h2>
+    <h1> 
+        <span id = "input-value1"></span> meter = <span id = "feet-value"></span> feet | <span id = "input-value2"></span> feet = <span id = "meter-value"></span> meters
+    </h1>
+    <hr style="color: rgb(160, 150, 150);">
+    <h2> Volume (Liters/Gallons)</h2>
+    <h1> 
+        <span id = "input-value3"></span> liters = <span id = "gallon-value"></span> gallons | <span id = "input-value4"></span> gallons = <span id = "litre-value"></span> liters
+    </h1>
+    <hr style="color: rgb(160, 150, 150);">
+    <h2> Mass (Kilograms/Pounds)</h2>
+    <h1> 
+        <span id = "input-value5"></span> kilos = <span id = "pound-value"></span> pounds | <span id = "input-value6"></span> pounds = <span id = "kilo-value"></span> kilos
+    </h1>
+  </div>
+
+</div>
+<script src="js/index.js"></script>
+</body>
+</html> 
